@@ -66,8 +66,21 @@ input, textarea, button
 		font-family: $font-family-1
 		background: white
 		width: 100%
+	&_border-white
+		.input
+			&__wrap
+				border: 1px solid #e6e6e6
+	&_normal
+		.input
+			&__wrap
+				height: 50px
+				padding-left: 22px
+				padding-right: 22px
 
-
+	&_radius
+		.input
+			&__wrap
+				border-radius: 50px
 .textarea
 	position: relative
 	&__wrap
@@ -89,6 +102,53 @@ input, textarea, button
 	text-align: center
 	transition: .3s
 	background-color: transparent
+	overflow: hidden
+	span
+		z-index: 1
+		position: relative
+		display: flex
+		flex-wrap: wrap
+		align-items: center
+		justify-content: center
+	&_border-gold
+		border: 1px solid #c17e2b
+	&_text-white
+		color: #fff
+	&_gradient-gold
+		color: #fff
+		border: 1px solid #c17e2b
+		&:before
+			content: ''
+			position: absolute
+			top: 0
+			left: 0
+			right: 0
+			bottom: 0
+			transition: .3s
+			background-image: linear-gradient(180deg, #ecb762 0%, #c17e2b 100%)
+		&:hover
+			color: $color-1
+			&:before
+				opacity: 0
+	&_hover-gradient
+		&:before
+			content: ''
+			position: absolute
+			top: 0
+			left: 0
+			right: 0
+			bottom: 0
+			opacity: 0
+			transition: .3s
+			background-image: linear-gradient(180deg, #ecb762 0%, #c17e2b 100%)
+		&:hover
+			&:before
+				opacity: 1
+			
+	&_normal
+		height: 50px
+	&_radius
+		border-radius: 50px
 
 .input input, .textarea textarea
 	transition: .3s
@@ -117,7 +177,363 @@ input, .btn, .slick-slide, textarea
 
 
 
+.header
+	min-height: 855px
+	background: url('../../img/header.jpg') no-repeat center top
+	background-size: cover
 
 
+.panel
+	padding-top: 35px
+	&__logo, &__desc
+		width: 33.33%
+	&__logo
+		position: relative
+		top: -6px
+	&__desc
+		font-size: 16px
+		font-weight: 700
+		color: #f3cb8d
+		text-align: center
+
+	&__btn
+		width: 160px
+		margin-left: auto
+		
+
+.hello
+	color: #fff
+	text-align: center
+	font-weight: 700
+	padding-top: 110px
+	&__title
+		font-size: 70px
+		line-height: 70px
+		margin-bottom: 10px
+	&__text
+		font-size: 50px
+		line-height: 50px
+		color: #ffe5bc
+		margin-bottom: 15px
+	&__desc
+		font-size: 40px
+		line-height: 50px
+		color: #ffe5bc
+		margin-bottom: 60px
+	&__subdesc
+		font-size: 26px
+		color: #eab45f
+		font-weight: 300
+
+
+.title
+	font-size: 40px
+	line-height: 50px
+	font-weight: 700
+
+
+.main
+	background-color: #f5f7f8
+
+.questions
+	position: relative
+	top: -110px
+	margin-bottom: -100px
+	&__title
+		color: #ffffff
+		text-align: center
+		margin-bottom: 25px
+
+	&__list
+		padding: 30px 45px 35px
+		background-color: #ffffff
+
+	&__item
+		display: flex
+		flex-wrap: wrap
+		align-items: center
+		margin-bottom: 45px
+		&:last-of-type
+			margin-bottom: 0
+
+	&__question
+		font-size: 30px
+		font-weight: 700
+		width: 92%
+
+	&__answer
+		color: #401f28
+		font-size: 30px
+		font-weight: 700
+		text-transform: uppercase
+		text-align: center
+		width: 8%
+	&__desc
+		display: flex
+		flex-wrap: wrap
+		align-items: center
+		justify-content: center
+		height: 100px
+		font-size: 30px
+		font-weight: 600
+		background-image: linear-gradient(94deg, #ecb762 0%, #ffebd1 100%)
+
+
+
+
+.we
+	padding-top: 40px
+	&__title
+		text-align: center
+		margin-bottom: 25px
+	&__list
+		margin-left: -8px
+		margin-right: -8px
+	&__item
+		margin-left: 8px
+		margin-right: 8px
+		background-color: #ffffff
+		padding: 40px 35px
+		width: calc(33.333% - 16px)
+		margin-bottom: 16px
+		box-shadow: 0 30px 50px rgba(183, 180, 162, 0.16)
+	&__icon
+		height: 85px
+		display: flex
+		flex-wrap: wrap
+		align-items: center
+		margin-bottom: 35px
+	&__subtitle
+		font-size: 22px
+		font-weight: 700
+		margin-bottom: 24px
+
+	&__text
+		font-family: $font-family-2
+		line-height: 22px
+		max-width: 295px
+		p
+			margin-bottom: 20px
+			&:last-of-type
+				margin-bottom: 0
+
+.desc
+	&__wrap
+		
+
+	&__comfort, &__extra, &__other
+		padding-left: 35px
+		padding-right: 35px
+		background-color: #fff
+		box-shadow: 0 30px 50px rgba(183, 180, 162, 0.16)
+
+
+	&__title
+		width: 220px
+		font-size: 22px
+		line-height: 30px
+		font-weight: 700
+
+	&__arrea
+		width: calc(100% - 220px)
+		padding-left: 115px
+
+	&__comfort
+		padding-top: 40px
+		padding-bottom: 40px
+
+	&__extra
+		padding-top: 35px
+		padding-bottom: 35px
+		border-top: 1px solid #f5f7f8
+		border-bottom: 1px solid #f5f7f8
+
+	&__other
+		padding-top: 35px
+		padding-bottom: 45px
+
+
+
+.list
+	margin-bottom: -32px
+	li
+		font-size: 18px
+		width: 33.333%
+		position: relative
+		padding-left: 27px
+		margin-bottom: 32px
+		&:before, &:after
+			position: absolute
+			content: ''
+			top: 0
+			left: 0
+		&:before
+			z-index: 1
+			width: 18px
+			height: 18px
+			border-radius: 50%
+			background-image: linear-gradient(180deg, #ecb762 0%, #c17e2b 100%)
+		&:after
+			z-index: 2
+			width: 28px
+			height: 27px
+			margin-top: -1px
+			margin-left: -5px
+			background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAbCAYAAABvCO8sAAAB4klEQVRIS82WsU4CQRCGZ2nO5nJQXEUjFldoQUFPQUgkIbGjojDxDXwCIaGgMCGxI5BYSIWND2BhY2mhRgtjYX+VIbmYXODMAIt7y87eekLiNlvc3nzzz8zODoO/rAgYMIh+Y4IlHkajJssQrDdmCpMd0sBpoAbWagNrnUHEdzIACvA6UAFCw0lRJR2QoHFDKWGiMwiOOWcKpFS97DdWTh68XpMVSoF/FErqZKAIEhUMD4eOZVnZbnfnw0TpApgAwyMqYK/Wy+bt/C0AfLbbrIJnRNUxlcvQrgFFZZQq3/XZqDRylrBCGIaV5k3zEWFJUOTGCkcFHBwNdh3LeZ/C9KR6V70SYUEYVOr39SfXd1f51KmMAXV5GzfGDwBQnMHsNAOZYwAocBiG3AgIMO+ESoVyODu1Ts6zPcxXEXOGsPJl+dn27JUyDt2IQsxbv9TPerZ3HoTBBcJQGQemUkgVDMLQ+ORtwhCA+17ui/muO+NXYStADhWVbQWIRmWVIgi/GSlkEBldCxGoauIUDM/Kl18LpDqM7uUgKxR/mis0aG1UxxHBciPXN++UvVRWyqFrsKW6xcbXBt5Cbkr3Jv6fB1gOV9KYoQujaMtoptFVJfmNmNxSTW2JDqQaEzXFpAQaDsLfH78lKz8uQ5IAAAAASUVORK5CYII=')
+
+
+.icons
+	display: flex
+	flex-wrap: wrap
+	margin-bottom: -30px
+	&__item
+		display: flex
+		flex-wrap: wrap
+		align-items: center
+		width: 50%
+		padding-right: 20px
+		margin-bottom: 30px
+	&__icon
+		display: flex
+		flex-wrap: wrap
+		justify-content: center
+		width: 70px
+
+	&__text
+		padding-left: 12px
+		width: calc(100% - 70px)
+
+
+
+
+.points
+	margin-top: 55px
+	&__title
+		margin-bottom: 20px
+	&__list
+		margin-left: -8px
+		margin-right: -8px
+	&__item
+		display: flex
+		flex-wrap: wrap
+		align-items: center
+		width: calc(50% - 16px)
+		margin-left: 8px
+		margin-right: 8px
+		margin-bottom: 16px
+		background-color: #fff
+		padding: 42px 36px 42px 36px
+		box-shadow: 0 10px 20px rgba(96, 56, 27, 0.07)
+	&__icon
+		display: flex
+		flex-wrap: wrap
+		justify-content: center
+		width: 83px
+	&__text
+		font-size: 18px
+		line-height: 22px
+		font-family: $font-family-2
+		width: calc(100% - 83px)
+		padding-left: 23px
+
+
+.team
+	padding-top: 9px
+	margin-bottom: 35px
+	&__text
+		width: 235px
+		padding-top: 155px
+
+	&__desc
+		margin-bottom: 15px
+
+	&__title
+		font-size: 50px
+		font-weight: 700
+		color: #c98835
+
+	&__img
+		width: calc(100% - 235px)
+		img
+			margin-left: auto
+			display: none
+			&.img-lg
+				display: block
+
+
+
+.form
+	background-image: linear-gradient(114deg, #f29864 0%, #fec163 100%)
+	padding-bottom: 120px
+	&__wrap
+		position: relative
+		top: -80px
+		margin-bottom: -80px
+		background-color: #fff
+		box-shadow: 0 10px 20px rgba(96, 56, 27, 0.07)
+	&__body
+		padding: 45px 50px 50px
+	&__title
+		font-weight: 400
+		margin-bottom: 12px
+	&__desc
+		color: #3e0d39
+		font-size: 22px
+		font-weight: 300
+		margin-bottom: 20px
+	&__arrea
+		margin-bottom: 33px
+	&__input
+		width: 335px
+		margin-right: 15px
+	&__btn
+		width: 185px
+	&__text
+		font-size: 18px
+		color: #c68531
+		strong
+			color: $color-1
+			font-size: 22px
+			margin-right: 10px
+
+	&__foot
+		padding: 36px 50px 45px
+		background-color: #f5f7f8
+
+	&__subdesc
+		font-size: 30px
+		font-weight: 700
+		margin-bottom: 12px
+
+	&__subtext
+		font-size: 22px
+		font-weight: 500
+
+
+.footer
+	background-color: #2a0f20
+	&__wrap
+		display: flex
+		flex-wrap: wrap
+		justify-content: space-between
+		height: 70px
+		color: #d0d0d0
+		font-size: 12px
+		font-family: $font-family-2
+		a
+			color: #d0d0d0
+			&:hover
+				color: #fff
+				border-color: #fff
+	&__copy
+		padding-right: 10px
+
+	&__links
+		padding-left: 10px
+		li
+			margin-right: 15px
+			&:last-of-type
+				margin-right: 0
+		
 .hidden-lg
 	display: none
