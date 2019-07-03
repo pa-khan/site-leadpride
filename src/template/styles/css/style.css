@@ -1,11 +1,41 @@
 /* Including styles files */
 /* Including fonts */
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic-ext");
 @import url(../../libs/fancybox/dist/jquery.fancybox.css);
 @font-face {
-  font-family: "";
-  src: url("../../fonts/");
-  font-style: normal;
-  font-weight: 400; }
+  font-family: 'Gilroy';
+  src: url("../../fonts/Gilroy-Light.eot");
+  src: local("Gilroy Light"), local("Gilroy-Light"), url("../../fonts/Gilroy-Light.eot?#iefix") format("embedded-opentype"), url("../../fonts/Gilroy-Light.woff") format("woff"), url("../../fonts/Gilroy-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url("../../fonts/Gilroy-Regular.eot");
+  src: local("Gilroy Regular"), local("Gilroy-Regular"), url("../../fonts/Gilroy-Regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/Gilroy-Regular.woff") format("woff"), url("../../fonts/Gilroy-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url("../../fonts/Gilroy-Medium.eot");
+  src: local("Gilroy Medium"), local("Gilroy-Medium"), url("../../fonts/Gilroy-Medium.eot?#iefix") format("embedded-opentype"), url("../../fonts/Gilroy-Medium.woff") format("woff"), url("../../fonts/Gilroy-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url("../../fonts/Gilroy-SemiBold.eot");
+  src: local("Gilroy SemiBold"), local("Gilroy-SemiBold"), url("../../fonts/Gilroy-SemiBold.eot?#iefix") format("embedded-opentype"), url("../../fonts/Gilroy-SemiBold.woff") format("woff"), url("../../fonts/Gilroy-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url("../../fonts/Gilroy-Bold.eot");
+  src: local("Gilroy Bold"), local("Gilroy-Bold"), url("../../fonts/Gilroy-Bold.eot?#iefix") format("embedded-opentype"), url("../../fonts/Gilroy-Bold.woff") format("woff"), url("../../fonts/Gilroy-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal; }
 
 /* Grid */
 .case {
@@ -124,8 +154,8 @@
 
 body {
   font-size: 16px;
-  font-family: "Tahoma", sans-serif;
-  color: #000;
+  font-family: "Gilroy", sans-serif;
+  color: #333333;
   background: white; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -151,7 +181,7 @@ li {
   list-style-image: none; }
 
 a {
-  color: #000;
+  color: #333333;
   text-decoration: none;
   border-bottom: 1px solid transparent;
   -webkit-transition: .3s;
@@ -176,7 +206,7 @@ input, textarea, button {
   .input__wrap {
     display: block;
     font-size: 16px;
-    font-family: "Tahoma", sans-serif;
+    font-family: "Gilroy", sans-serif;
     background: white;
     width: 100%; }
 
@@ -185,7 +215,7 @@ input, textarea, button {
   .textarea__wrap {
     display: block;
     font-size: 16px;
-    font-family: "Tahoma", sans-serif;
+    font-family: "Gilroy", sans-serif;
     background: white;
     width: 100%;
     resize: none; }
@@ -205,7 +235,7 @@ input, textarea, button {
       -ms-flex-pack: center;
           justify-content: center;
   font-size: 16px;
-  font-family: "Tahoma", sans-serif;
+  font-family: "Gilroy", sans-serif;
   cursor: pointer;
   text-align: center;
   -webkit-transition: .3s;
