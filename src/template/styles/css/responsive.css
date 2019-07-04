@@ -246,6 +246,7 @@
     max-width: 240px; }
   .questions__answer {
     width: 40px;
+    line-height: 20px;
     margin-left: auto; }
   .questions__desc {
     font-size: 18px;
@@ -310,6 +311,8 @@
       font-size: 16px;
       width: 50%;
       padding-right: 10px; }
+      .list li:before, .list li:after {
+        top: 3px; }
   .icons__text {
     width: -webkit-calc(100% - 42px);
     width: calc(100% - 42px); }
@@ -399,6 +402,13 @@
   .questions__title {
     font-size: 24px;
     margin-bottom: 20px; }
+  .we__icon {
+    margin-bottom: 18px; }
+  .we__subtitle {
+    font-size: 16px;
+    position: static;
+    height: auto;
+    margin-bottom: 14px; }
   .list li {
     width: 100%;
     padding-right: 0; }
