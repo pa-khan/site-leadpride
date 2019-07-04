@@ -1,14 +1,201 @@
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1235px) {
   .case {
     width: 950px; }
+  .header {
+    min-height: 700px; }
+  .hello {
+    padding-top: 50px; }
+    .hello__title {
+      font-size: 50px;
+      line-height: 57px; }
+    .hello__text {
+      font-size: 36px;
+      line-height: 37px; }
+    .hello__desc {
+      font-size: 30px;
+      line-height: 38px; }
+    .hello__subdesc {
+      font-size: 19px; }
+  .title {
+    font-size: 26px;
+    line-height: 31px; }
+  .questions {
+    top: -120px;
+    margin-bottom: -120px; }
+    .questions__title {
+      font-size: 30px;
+      line-height: 32px;
+      margin-bottom: 45px;
+      text-align: left; }
+    .questions__question {
+      font-size: 19px; }
+    .questions__answer {
+      font-size: 19px; }
+    .questions__desc {
+      font-size: 22px;
+      height: 70px; }
+  .desc__arrea {
+    padding-left: 50px; }
+  .list {
+    margin-bottom: -15px; }
+    .list li {
+      margin-bottom: 15px; }
+  .form {
+    padding-bottom: 50px; }
+    .form__desc {
+      font-size: 18px; }
+    .form__input {
+      width: 240px; }
+    .form__text strong {
+      font-size: inherit; }
+    .form__subdesc {
+      font-size: 24px; }
+    .form__subtext {
+      font-size: 18px; }
   .hidden-lg {
     display: block; }
   .hidden-md {
     display: none; } }
 
 @media screen and (max-width: 992px) {
+  body {
+    font-size: 12px; }
   .case {
     width: 750px; }
+  .input_normal .input__wrap {
+    font-size: 14px;
+    height: 40px; }
+  .btn_normal {
+    font-size: 12px;
+    height: 40px; }
+  .panel__logo {
+    width: 160px;
+    top: -1px; }
+  .panel__desc {
+    width: 260px;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto; }
+  .panel__btn {
+    width: 135px;
+    margin-left: 0; }
+  .hello__wrap {
+    padding-top: 100px; }
+  .questions {
+    top: -145px;
+    margin-bottom: -145px; }
+    .questions__title {
+      margin-bottom: 40px; }
+    .questions__item {
+      padding: 20px 30px; }
+  .we {
+    padding-top: 50px; }
+    .we__title {
+      margin-bottom: 15px; }
+    .we__item {
+      padding: 30px; }
+    .we__icon {
+      height: 52px;
+      margin-bottom: 20px; }
+    .we__subtitle {
+      font-size: 14px;
+      line-height: 18px;
+      margin-bottom: 13px; }
+    .we__text {
+      font-size: 12px;
+      line-height: 16px; }
+      .we__text p {
+        margin-bottom: 10px; }
+        .we__text p:last-of-type {
+          margin-bottom: 0; }
+  .desc__comfort, .desc__extra, .desc__other {
+    padding: 25px 30px; }
+  .desc__title {
+    font-size: 14px;
+    line-height: 18px;
+    width: 145px; }
+  .desc__arrea {
+    width: -webkit-calc(100% - 145px);
+    width: calc(100% - 145px); }
+  .list li {
+    font-size: 12px;
+    padding-left: 18px; }
+    .list li:before {
+      width: 12px;
+      height: 12px; }
+    .list li:after {
+      width: 24px;
+      height: 24px;
+      margin-top: -3px;
+      margin-left: -6px;
+      background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABSElEQVRIS7VWOw7CMAx1kNrDwMQJECdADOyIE7AzAEtXboDYkTgLC5yDmUgNchuXEhLbLcJLC0re8/O3BjTmwFTHDDjA9/ZTuF9fjFkbiANBMsZ4Ao268ExA+E2g9TxFzhL8Ck55apF/KqBk9glN7I4B9yZgwHd7X0UeZLflE9tUXFV4aErPkQjBHbglAMwMmDkrVlJAnm+2duLAPXLIrx78YMFO8bdMoPD+aZ/jLMsuJZSnAQzWITgpi6eBCREpwLB4kqO1dlUUtef4PwdeF5WCIPTsNlyY0f380cGpxGNbJLs5rB4k6gIuKqjC0CrRFHjvHIQEqYpJ9oVUpgQoNdrPCqhaQgViRzcKFL0QqhHB/eD737DzYzu+D4RpKjVXtVK9xXugQ8i+fFFttL77ILKf0wrosEYNs/jTSz+mglYqzS/hiwKPvQAUOZkZyxyiMwAAAABJRU5ErkJggg=="); }
+  .icons__icon {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 42px; }
+  .icons__text {
+    line-height: 18px; }
+    .icons__text br {
+      display: none; }
+  .points {
+    margin-top: 55px; }
+    .points__title {
+      margin-bottom: 12px; }
+    .points__item {
+      padding: 25px; }
+    .points__icon {
+      width: 55px;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center; }
+    .points__text {
+      font-size: 12px;
+      line-height: 18px;
+      width: -webkit-calc(100% - 55px);
+      width: calc(100% - 55px); }
+  .team {
+    margin-top: 42px;
+    margin-bottom: 50px; }
+    .team__text {
+      padding-top: 95px; }
+    .team__title {
+      font-size: 32px;
+      margin-bottom: 10px; }
+    .team__img img:nth-of-type(1) {
+      display: none; }
+    .team__img img:nth-of-type(2) {
+      display: block; }
+  .form {
+    padding-top: 60px;
+    padding-bottom: 60px; }
+    .form__wrap {
+      top: 0;
+      margin-bottom: 0; }
+    .form__body {
+      padding: 30px; }
+    .form__title {
+      margin-bottom: 4px; }
+    .form__arrea {
+      margin-bottom: 20px; }
+    .form__input {
+      width: 220px;
+      margin-right: 10px; }
+    .form__btn {
+      width: 125px; }
+    .form__text {
+      font-size: 11px; }
+      .form__text strong {
+        font-size: 14px; }
+    .form__foot {
+      padding: 20px 30px; }
+    .form__subdesc {
+      font-size: 21px;
+      margin-bottom: 5px; }
+    .form__subtext {
+      font-size: 14px; }
   .hidden-md {
     display: block; }
   .hidden-sm {
@@ -17,7 +204,219 @@
 @media screen and (max-width: 767px) {
   .case {
     width: 100%; }
+  .btn_normal {
+    font-size: 14px; }
+  .header {
+    background-position: center 20px;
+    background-size: 100% auto;
+    background-color: #2b0f20;
+    min-height: 1px; }
+  .panel {
+    padding-top: 20px; }
+    .panel__logo {
+      width: 120px; }
+    .panel__desc {
+      display: none; }
+    .panel__btn {
+      width: 145px;
+      margin-left: auto; }
+  .hello {
+    padding-top: 60px;
+    padding-bottom: 190px; }
+    .hello__title {
+      font-size: 30px;
+      line-height: 40px; }
+    .hello__text {
+      font-size: 26px;
+      line-height: 30px;
+      margin-bottom: 0; }
+    .hello__desc {
+      font-size: 26px;
+      line-height: 30px;
+      margin-bottom: 20px; }
+    .hello__subdesc {
+      margin-bottom: 20px; }
+  .questions__title {
+    margin-bottom: 30px;
+    max-width: 340px; }
+  .questions__item {
+    padding: 13px 15px; }
+  .questions__question {
+    font-size: 18px;
+    max-width: 240px; }
+  .questions__answer {
+    width: 40px;
+    margin-left: auto; }
+  .questions__desc {
+    font-size: 18px;
+    height: 65px;
+    padding: 3px 5px; }
+  .we {
+    padding-top: 35px; }
+    .we__title {
+      max-width: 280px;
+      margin-left: auto;
+      margin-right: auto; }
+    .we__list {
+      margin-left: 0;
+      margin-right: 0; }
+    .we__item {
+      position: relative;
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+      padding: 30px; }
+    .we__icon {
+      width: 80px;
+      height: 80px; }
+    .we__subtitle {
+      top: 30px;
+      left: 130px;
+      height: 80px;
+      width: -webkit-calc(100% - 130px);
+      width: calc(100% - 130px);
+      position: absolute;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      font-size: 22px; }
+    .we__text {
+      font-size: 16px;
+      line-height: 16px; }
+  .desc__comfort, .desc__extra, .desc__other {
+    padding: 30px; }
+  .desc__title, .desc__arrea {
+    width: 100%; }
+  .desc__title {
+    max-width: 350px;
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 13px; }
+    .desc__title br {
+      display: none; }
+  .desc__arrea {
+    padding-left: 0; }
+  .list {
+    padding-top: 10px; }
+    .list li {
+      font-size: 16px;
+      width: 50%;
+      padding-right: 10px; }
+  .icons__text {
+    width: -webkit-calc(100% - 42px);
+    width: calc(100% - 42px); }
+  .points {
+    margin-top: 40px; }
+    .points__title {
+      text-align: center;
+      margin-bottom: 12px; }
+    .points__list {
+      margin-left: 0;
+      margin-right: 0; }
+    .points__item {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+      padding: 25px 30px; }
+  .team {
+    margin-top: 25px;
+    margin-bottom: 25px; }
+    .team__text {
+      width: 300px;
+      padding-top: 0;
+      margin-bottom: 20px; }
+    .team__desc, .team__title {
+      display: inline; }
+    .team__title {
+      font-size: 26px; }
+    .team__img {
+      width: 100%; }
+      .team__img img {
+        margin-left: auto;
+        margin-right: auto; }
+        .team__img img:nth-of-type(2) {
+          display: none; }
+        .team__img img:nth-of-type(3) {
+          display: block; }
+  .form {
+    padding-top: 50px;
+    padding-bottom: 50px; }
+    .form__title, .form__desc {
+      text-align: center; }
+    .form__title {
+      font-size: 20px;
+      line-height: 20px;
+      margin-bottom: 7px; }
+    .form__desc {
+      font-size: 16px; }
+    .form__body {
+      padding: 20px 15px; }
+    .form__input {
+      width: 100%;
+      margin-bottom: 20px; }
+    .form__btn {
+      width: 100%; }
+    .form__text {
+      font-size: 14px;
+      text-align: center; }
+      .form__text strong {
+        font-size: 14px;
+        margin-right: 0; }
+    .form__foot {
+      padding: 20px 15px; }
+    .form__subdesc {
+      font-size: 20px;
+      margin-bottom: 6px; }
+  .footer {
+    height: 70px; }
+    .footer__copy {
+      text-align: center;
+      width: 100%; }
+    .footer__links {
+      display: none; }
   .hidden-sm {
     display: block; }
   .hidden-xs {
     display: none; } }
+
+@media screen and (max-width: 419px) {
+  .panel__logo {
+    top: -5px; }
+  .panel__btn {
+    width: 130px; }
+  .hello__title br {
+    display: none; }
+  .hello__subdesc {
+    margin-bottom: 30px; }
+  .questions__title {
+    font-size: 24px;
+    margin-bottom: 20px; }
+  .list li {
+    width: 100%;
+    padding-right: 0; }
+    .list li:last-of-type {
+      margin-bottom: 0; }
+  .icons {
+    margin-bottom: 0; }
+    .icons__item {
+      width: 100%;
+      margin-bottom: 15px; }
+      .icons__item:last-of-type {
+        margin-bottom: 0; }
+  .team {
+    margin-bottom: 20px; }
+    .team__img img:nth-of-type(3) {
+      display: none; }
+    .team__img img:nth-of-type(4) {
+      display: block; }
+  .form {
+    padding-top: 35px;
+    padding-bottom: 35px; } }

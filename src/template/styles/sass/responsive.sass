@@ -1,7 +1,72 @@
-@media screen and (max-width: 1199px)
+@media screen and (max-width: 1235px)
 	.case
 		width: 950px
 	
+	.header
+		min-height: 700px
+	.hello
+		padding-top: 50px
+		&__title
+			font-size: 50px
+			line-height: 57px
+
+		&__text
+			font-size: 36px
+			line-height: 37px
+		&__desc
+			font-size: 30px
+			line-height: 38px
+	
+		&__subdesc
+			font-size: 19px
+	
+	
+	.title
+		font-size: 26px
+		line-height: 31px
+
+	.questions
+		top: -120px
+		margin-bottom: -120px
+		&__title
+			font-size: 30px
+			line-height: 32px
+			margin-bottom: 45px
+			text-align: left
+		&__question
+			font-size: 19px
+		&__answer
+			font-size: 19px
+
+		&__desc
+			font-size: 22px
+			height: 70px
+
+
+	.desc
+		&__arrea
+			padding-left: 50px
+
+	.list
+		margin-bottom: -15px
+		li
+			margin-bottom: 15px
+
+	.form
+		padding-bottom: 50px
+		&__desc
+			font-size: 18px
+		&__input
+			width: 240px
+		&__text
+			strong
+				font-size: inherit
+		&__subdesc
+			font-size: 24px
+		&__subtext
+			font-size: 18px
+			
+
 	.hidden-lg
 		display: block
 	
@@ -11,8 +76,173 @@
 
 	
 @media screen and (max-width: 992px)
+
+	body
+		font-size: 12px
+
 	.case
 		width: 750px
+
+	.input
+		&_normal
+			.input
+				&__wrap
+					font-size: 14px
+					height: 40px
+	
+	.btn
+		&_normal
+			font-size: 12px
+			height: 40px
+	
+	.panel
+		
+		&__logo
+			width: 160px
+			top: -1px
+
+		&__desc
+			width: 260px
+			font-size: 14px
+			margin-left: auto
+			margin-right: auto
+
+		&__btn
+			width: 135px
+			margin-left: 0
+	
+	.hello
+		&__wrap
+			padding-top: 100px
+
+	.questions
+		top: -145px
+		margin-bottom: -145px
+		&__title
+			margin-bottom: 40px
+		&__item
+			padding: 20px 30px
+
+
+	.we
+		padding-top: 50px
+		&__title
+			margin-bottom: 15px
+		&__item
+			padding: 30px
+		&__icon
+			height: 52px
+			margin-bottom: 20px
+		&__subtitle
+			font-size: 14px
+			line-height: 18px
+			margin-bottom: 13px
+		&__text
+			font-size: 12px
+			line-height: 16px
+			p
+				margin-bottom: 10px
+				&:last-of-type
+					margin-bottom: 0
+
+	.desc
+		&__comfort, &__extra, &__other
+			padding: 25px 30px
+		&__title
+			font-size: 14px
+			line-height: 18px
+			width: 145px
+		&__arrea
+			width: calc(100% - 145px)
+
+	.list
+		li
+			font-size: 12px
+			padding-left: 18px
+			&:before
+				width: 12px
+				height: 12px
+			&:after
+				width: 24px
+				height: 24px
+				margin-top: -3px
+				margin-left: -6px
+				background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABSElEQVRIS7VWOw7CMAx1kNrDwMQJECdADOyIE7AzAEtXboDYkTgLC5yDmUgNchuXEhLbLcJLC0re8/O3BjTmwFTHDDjA9/ZTuF9fjFkbiANBMsZ4Ao268ExA+E2g9TxFzhL8Ck55apF/KqBk9glN7I4B9yZgwHd7X0UeZLflE9tUXFV4aErPkQjBHbglAMwMmDkrVlJAnm+2duLAPXLIrx78YMFO8bdMoPD+aZ/jLMsuJZSnAQzWITgpi6eBCREpwLB4kqO1dlUUtef4PwdeF5WCIPTsNlyY0f380cGpxGNbJLs5rB4k6gIuKqjC0CrRFHjvHIQEqYpJ9oVUpgQoNdrPCqhaQgViRzcKFL0QqhHB/eD737DzYzu+D4RpKjVXtVK9xXugQ8i+fFFttL77ILKf0wrosEYNs/jTSz+mglYqzS/hiwKPvQAUOZkZyxyiMwAAAABJRU5ErkJggg==')
+
+
+	.icons
+		&__icon
+			align-items: center
+			width: 42px
+		&__text
+			line-height: 18px
+			br
+				display: none
+
+
+	.points
+		margin-top: 55px
+		&__title
+			margin-bottom: 12px
+		&__item
+			padding: 25px
+		&__icon
+			width: 55px
+			align-items: center
+		&__text
+			font-size: 12px
+			line-height: 18px
+			width: calc(100% - 55px)
+
+	.team
+		margin-top: 42px
+		margin-bottom: 50px
+		&__text
+			padding-top: 95px
+		&__title
+			font-size: 32px
+			margin-bottom: 10px
+		&__img
+			img
+				&:nth-of-type(1)
+					display: none
+				&:nth-of-type(2)
+					display: block
+			
+	.form
+		padding-top: 60px
+		padding-bottom: 60px
+		&__wrap
+			top: 0
+			margin-bottom: 0
+		&__body
+			padding: 30px
+		&__title
+			margin-bottom: 4px
+		&__arrea
+			margin-bottom: 20px
+		&__input
+			width: 220px
+			margin-right: 10px
+		&__btn
+			width: 125px
+			
+		&__text
+			font-size: 11px
+			strong
+				font-size: 14px
+
+		&__foot
+			padding: 20px 30px
+
+		&__subdesc
+			font-size: 21px
+			margin-bottom: 5px
+
+		&__subtext
+			font-size: 14px
+
+			
 
 	.hidden-md
 		display: block		
@@ -26,6 +256,211 @@
 	.case
 		width: 100%
 
+	.btn
+		&_normal
+			font-size: 14px
+	.header
+		background-position: center 20px 
+		background-size: 100% auto
+		background-color: #2b0f20
+		min-height: 1px
+	.panel
+		padding-top: 20px
+		&__logo
+			width: 120px
+		&__desc
+			display: none
+		&__btn
+			width: 145px
+			margin-left: auto
+
+	.hello
+		padding-top: 60px
+		padding-bottom: 190px
+		&__title
+			font-size: 30px
+			line-height: 40px
+		&__text
+			font-size: 26px
+			line-height: 30px
+			margin-bottom: 0
+		&__desc
+			font-size: 26px
+			line-height: 30px
+			margin-bottom: 20px
+		&__subdesc
+			margin-bottom: 20px
+			
+	.questions
+		&__title
+			margin-bottom: 30px
+			max-width: 340px
+		&__item
+			padding: 13px 15px
+
+		&__question
+			font-size: 18px
+			max-width: 240px
+
+		&__answer
+			width: 40px
+			margin-left: auto
+
+		&__desc
+			font-size: 18px
+			height: 65px
+			padding: 3px 5px
+
+	.we
+		padding-top: 35px
+		&__title
+			max-width: 280px
+			margin-left: auto
+			margin-right: auto
+		&__list
+			margin-left: 0
+			margin-right: 0
+		&__item
+			position: relative
+			width: 100%
+			margin-left: 0
+			margin-right: 0
+			padding: 30px
+		&__icon
+			width: 80px
+			height: 80px
+
+		&__subtitle
+			top: 30px
+			left: 130px
+			height: 80px
+			width: calc(100% - 130px)
+			position: absolute
+			display: flex
+			flex-wrap: wrap
+			align-items: center
+			font-size: 22px
+
+		&__text
+			font-size: 16px
+			line-height: 16px
+			
+			
+	.desc
+		&__comfort, &__extra, &__other
+			padding: 30px
+		&__title, &__arrea
+			width: 100%
+		&__title
+			max-width: 350px
+			font-size: 22px
+			line-height: 30px
+			margin-bottom: 13px
+			br
+				display: none
+		&__arrea
+			padding-left: 0
+
+
+	.list
+		padding-top: 10px
+		li
+			font-size: 16px
+			width: 50%
+			padding-right: 10px
+
+
+
+	.icons
+		&__text
+			width: calc(100% - 42px)
+			
+
+	.points
+		margin-top: 40px
+		&__title
+			text-align: center
+			margin-bottom: 12px
+		&__list
+			margin-left: 0
+			margin-right: 0
+		&__item
+			width: 100%
+			margin-left: 0
+			margin-right: 0
+			padding: 25px 30px
+
+
+	.team
+		margin-top: 25px
+		margin-bottom: 25px
+		&__text
+			width: 300px
+			padding-top: 0
+			margin-bottom: 20px
+
+		&__desc, &__title
+			display: inline
+
+		&__title
+			font-size: 26px
+
+		&__img
+			width: 100%
+			img
+				margin-left: auto
+				margin-right: auto
+				&:nth-of-type(2)
+					display: none
+				&:nth-of-type(3)
+					display: block
+			
+	.form
+		padding-top: 50px
+		padding-bottom: 50px
+		&__title, &__desc
+			text-align: center
+		&__title
+			font-size: 20px
+			line-height: 20px
+			margin-bottom: 7px
+		&__desc
+			font-size: 16px
+		&__body
+			padding: 20px 15px
+		&__input
+			width: 100%
+			margin-bottom: 20px
+		&__btn
+			width: 100%
+
+		&__text
+			font-size: 14px
+			text-align: center
+			strong
+				font-size: 14px
+				margin-right: 0
+
+		&__foot
+			padding: 20px 15px
+
+		&__subdesc
+			font-size: 20px
+			margin-bottom: 6px
+
+	
+
+	.footer
+		height: 70px
+		&__copy
+			text-align: center
+			width: 100%
+		&__links
+			display: none
+
+
+			
+
 	.hidden-sm
 		display: block
 	
@@ -33,3 +468,56 @@
 		display: none
 	
 
+
+
+@media screen and (max-width: 419px)
+	.panel
+		&__logo
+			top: -5px
+		&__btn
+			width: 130px
+
+	.hello
+		&__title
+			br
+				display: none
+
+		&__subdesc
+			margin-bottom: 30px
+
+
+	.questions
+		&__title
+			font-size: 24px
+			margin-bottom: 20px
+
+
+	.list
+		li
+			width: 100%
+			padding-right: 0
+			&:last-of-type
+				margin-bottom: 0
+
+	.icons
+		margin-bottom: 0
+		&__item
+			width: 100%
+			margin-bottom: 15px
+			&:last-of-type
+				margin-bottom: 0
+
+
+	.team
+		margin-bottom: 20px
+		&__img
+			img
+				&:nth-of-type(3)
+					display: none
+				&:nth-of-type(4)
+					display: block
+
+
+	.form
+		padding-top: 35px
+		padding-bottom: 35px
